@@ -46,10 +46,12 @@ public class Principal {
         System.out.println();
 
         //se realiza un ingreso en cuenta1
+        System.out.println("Ingreso de 4000€ en la cuenta 1");
         cuenta1.ingreso(4000);
 
         //mostrar el saldo de cuenta1 después del ingreso
         System.out.println("Saldo: " + cuenta1.getSaldo());
+        System.out.println();
 
         //mostrar los datos de cuenta2
         System.out.println("Datos de la cuenta 2");
@@ -60,11 +62,17 @@ public class Principal {
         System.out.println();
 
 
+        System.out.println("Transferencia de 100€ a la cuenta 2");
         cuenta1.transferencia(cuenta2, 100.00d);
 
-        //mostrar el saldo de cuenta2
-        System.out.println("Saldo de la cuenta 2");
+        //mostrar el saldo de cuenta2 después de la transferencia de 100€
+        System.out.println("Saldo de la cuenta 2 depués de la transferencia de 100€");
         System.out.println("Saldo: " + cuenta2.getSaldo());
+        System.out.println();
+
+        //mostrar el saldo de cuenta1 después de la transferencia de 100€
+        System.out.println("Saldo de la cuenta 1 depués de la transferencia de 100€");
+        System.out.println("Saldo: " + cuenta1.getSaldo());
         System.out.println();
 
     }
