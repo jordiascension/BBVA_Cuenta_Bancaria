@@ -14,7 +14,15 @@ public class PrinterPrincipal {
         printable.print();
         printable.off();
 
+
+       /* Printer p = new Printer();
+        p.newMethod();
+
+        Printable p1 = (Printable) p;
+        p1.off();*/
+
         //Polimorfismo de interfaces
-        List lista = new ArrayList();
+        //ejemplo
+        //List lista = new ArrayList();
     }
 }

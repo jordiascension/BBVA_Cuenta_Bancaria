@@ -7,4 +7,8 @@ public class Printer implements Printable{
 
         System.out.println("imprimiendo con la impresora");
     }
+
+    public void newMethod(){
+        System.out.println("New method");
+    }
 }
